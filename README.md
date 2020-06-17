@@ -3,3 +3,13 @@
 Based on https://damienbod.com/2020/02/10/create-certificates-for-identityserver4-signing-using-net-core/
 
 Easily create different kind of certificate for **IdentityServer**
+
+To build as a single file application, please run the following command:
+
+```bash
+ dotnet publish -r win-x64 -p:PublishSingleFile=true -c Release
+```
+
+```bash
+ dotnet publish -r linux-x64 -p:PublishSingleFile=true -c Release
+```
